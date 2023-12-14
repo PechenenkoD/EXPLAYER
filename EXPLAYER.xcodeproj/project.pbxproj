@@ -19,6 +19,7 @@
 		19BF371A2B27201900CC4E8B /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF37192B27201900CC4E8B /* CollectionViewTableViewCell.swift */; };
 		19BF371C2B28646200CC4E8B /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF371B2B28646200CC4E8B /* HeroHeaderUIView.swift */; };
 		19BF371E2B2B255600CC4E8B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF371D2B2B255600CC4E8B /* APICaller.swift */; };
+		19BF37202B2B2AF300CC4E8B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF371F2B2B2AF300CC4E8B /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		19BF37192B27201900CC4E8B /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		19BF371B2B28646200CC4E8B /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		19BF371D2B2B255600CC4E8B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		19BF371F2B2B2AF300CC4E8B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +116,7 @@
 		19BF37162B271F8A00CC4E8B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				19BF371D2B2B255600CC4E8B /* APICaller.swift */,
+				19BF371F2B2B2AF300CC4E8B /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -129,6 +131,7 @@
 		19BF37182B271FC700CC4E8B /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				19BF371D2B2B255600CC4E8B /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				19BF371C2B28646200CC4E8B /* HeroHeaderUIView.swift in Sources */,
 				19BF37132B27130900CC4E8B /* DownloadsViewController.swift in Sources */,
 				19BF36F82B27101400CC4E8B /* AppDelegate.swift in Sources */,
+				19BF37202B2B2AF300CC4E8B /* Movie.swift in Sources */,
 				19BF36FA2B27101400CC4E8B /* SceneDelegate.swift in Sources */,
 				19BF370F2B2712A800CC4E8B /* UpcomingViewController.swift in Sources */,
 				19BF370D2B27127100CC4E8B /* HomeViewController.swift in Sources */,
