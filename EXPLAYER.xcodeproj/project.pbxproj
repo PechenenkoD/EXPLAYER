@@ -20,6 +20,8 @@
 		19BF371C2B28646200CC4E8B /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF371B2B28646200CC4E8B /* HeroHeaderUIView.swift */; };
 		19BF371E2B2B255600CC4E8B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF371D2B2B255600CC4E8B /* APICaller.swift */; };
 		19BF37202B2B2AF300CC4E8B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF371F2B2B2AF300CC4E8B /* Movie.swift */; };
+		19BF37222B2B34B000CC4E8B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF37212B2B34B000CC4E8B /* Extensions.swift */; };
+		19BF37242B2B3C0700CC4E8B /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF37232B2B3C0700CC4E8B /* TV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		19BF371B2B28646200CC4E8B /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		19BF371D2B2B255600CC4E8B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		19BF371F2B2B2AF300CC4E8B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		19BF37212B2B34B000CC4E8B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		19BF37232B2B3C0700CC4E8B /* TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				19BF371F2B2B2AF300CC4E8B /* Movie.swift */,
+				19BF37232B2B3C0700CC4E8B /* TV.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 		19BF37172B271FB800CC4E8B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				19BF37212B2B34B000CC4E8B /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -207,12 +213,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				19BF37112B2712D500CC4E8B /* SearchViewController.swift in Sources */,
+				19BF37242B2B3C0700CC4E8B /* TV.swift in Sources */,
 				19BF36FC2B27101400CC4E8B /* MainTabBarViewController.swift in Sources */,
 				19BF371A2B27201900CC4E8B /* CollectionViewTableViewCell.swift in Sources */,
 				19BF371E2B2B255600CC4E8B /* APICaller.swift in Sources */,
 				19BF371C2B28646200CC4E8B /* HeroHeaderUIView.swift in Sources */,
 				19BF37132B27130900CC4E8B /* DownloadsViewController.swift in Sources */,
 				19BF36F82B27101400CC4E8B /* AppDelegate.swift in Sources */,
+				19BF37222B2B34B000CC4E8B /* Extensions.swift in Sources */,
 				19BF37202B2B2AF300CC4E8B /* Movie.swift in Sources */,
 				19BF36FA2B27101400CC4E8B /* SceneDelegate.swift in Sources */,
 				19BF370F2B2712A800CC4E8B /* UpcomingViewController.swift in Sources */,
