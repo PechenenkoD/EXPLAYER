@@ -84,7 +84,5 @@ class HeroHeaderUIView: UIView {
     required init?(coder: NSCoder) {
         fatalError()
     }
-    
-    
 
 }
