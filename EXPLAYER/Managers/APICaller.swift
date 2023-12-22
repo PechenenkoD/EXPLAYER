@@ -26,7 +26,6 @@ class APICaller {
             guard let data = data, error == nil else {
                 return
             }
-            
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
@@ -43,7 +42,6 @@ class APICaller {
             guard let data = data, error == nil else {
                 return
             }
-            
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
@@ -60,7 +58,6 @@ class APICaller {
             guard let data = data, error == nil else {
                 return
             }
-            
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
@@ -77,7 +74,6 @@ class APICaller {
             guard let data = data, error == nil else {
                 return
             }
-            
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
@@ -94,7 +90,6 @@ class APICaller {
             guard let data = data, error == nil else {
                 return
             }
-            
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
@@ -111,7 +106,6 @@ class APICaller {
             guard let data = data, error == nil else {
                 return
             }
-            
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
@@ -129,7 +123,6 @@ class APICaller {
             guard let data = data, error == nil else {
                 return
             }
-            
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
