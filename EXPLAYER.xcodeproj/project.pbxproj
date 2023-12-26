@@ -27,6 +27,7 @@
 		19BF372D2B2C642F00CC4E8B /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF372C2B2C642F00CC4E8B /* TitleTableViewCell.swift */; };
 		19BF372F2B2C69E300CC4E8B /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF372E2B2C69E300CC4E8B /* TitleViewModel.swift */; };
 		19BF37312B2CB2E600CC4E8B /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF37302B2CB2E600CC4E8B /* SearchResultsViewController.swift */; };
+		19ECF5802B3B00CF00F1D517 /* YouTubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ECF57F2B3B00CF00F1D517 /* YouTubeSearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		19BF372C2B2C642F00CC4E8B /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		19BF372E2B2C69E300CC4E8B /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		19BF37302B2CB2E600CC4E8B /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		19ECF57F2B3B00CF00F1D517 /* YouTubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeSearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				19BF371F2B2B2AF300CC4E8B /* Title.swift */,
+				19ECF57F2B3B00CF00F1D517 /* YouTubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				19BF37222B2B34B000CC4E8B /* Extensions.swift in Sources */,
 				19BF37312B2CB2E600CC4E8B /* SearchResultsViewController.swift in Sources */,
 				19BF372D2B2C642F00CC4E8B /* TitleTableViewCell.swift in Sources */,
+				19ECF5802B3B00CF00F1D517 /* YouTubeSearchResponse.swift in Sources */,
 				19BF37202B2B2AF300CC4E8B /* Title.swift in Sources */,
 				19BF36FA2B27101400CC4E8B /* SceneDelegate.swift in Sources */,
 				19BF370F2B2712A800CC4E8B /* UpcomingViewController.swift in Sources */,
